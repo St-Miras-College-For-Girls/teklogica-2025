@@ -1,0 +1,168 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEKLOGICA 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="sparkleCanvas"></canvas>
+    <nav
+      style="
+        background: linear-gradient(45deg, rgba(25, 25, 112, 0.5), rgba(48, 25, 52, 0.5));
+        color: white;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <!-- Brand Name -->
+        <li>
+          <a href="#" class="title-secondary" style="text-decoration: none"> TEKLOGICA 2025 </a>
+        </li>
+
+        <!-- Navigation Links -->
+        <div style="display: flex; gap: 20px; font-family: 'Garamond', serif; font-size: 1.1rem">
+          <li>
+            <a
+              href="time.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Event Schedule
+            </a>
+          </li>
+          <li>
+            <a
+              href="event.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Event Manual
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <div>
+      <div class="container text-center my-3">
+        <div class="col-lg-10 col-md-8 mx-auto">
+          <div class="title">St. Mira's College For Girls</div>
+          <div class="text-a" style="font-size: small">
+            (Autonomous - Affiliated to Savitribai Phule Pune University) <br />
+            Re-Accredited by NAAC 'A' Grade (Third Cycle)
+          </div>
+          <div>
+            <img
+              src="logo.jpg"
+              alt="St. Mira's College For Girls logo"
+              style="width: 5rem; height: 5rem; opacity: 80%"
+            />
+          </div>
+          <br />
+          <div class="title-secondary">Computer Science Department Presents</div>
+          <div class="title-main my-2">TEKLOGICA 2024-2025 <br /></div>
+          <div
+            class="marquee-container"
+            style="width: 20rem; overflow: hidden; margin: 0 auto; position: relative"
+          >
+            <marquee
+              class="title-secondary"
+              onmouseover="this.stop()"
+              onmouseout="this.start()"
+              style="width: 100%"
+              >Date:8th January'25 Time:8.30 am onwards Venue:St. Mira's College Campus</marquee
+            >
+          </div>
+          <br />
+          <br />
+          <img src="teck.png" style="width: 20rem; height: 20rem; opacity: 80%" /><br /><br />
+          <p class="para1-b" id="first">
+            <i
+              ><b>
+                We are excited to invite you to Teklogica 2024-25, a dynamic event hosted by the Computer
+                Science Department of St. Mira's College for Girls, Pune, on 8th January 2025. This event
+                promises a perfect blend of creativity, innovation, and fun, featuring various Technical
+                and Non-Technical Games. Teklogica is a celebration of technology and talent, designed to
+                inspire, engage, and showcase the skills of budding minds. Join us for an exciting and
+                diverse day packed with learning, competition, and entertainment.We look forward to your
+                enthusiastic participation! <br />
+                <br />
+                Check out Events Tab for more Information.
+              </b></i
+            >
+          </p>
+          <br />
+          <div class="container-c my-2 text-center mx-auto">
+            <h5 class="blue-p"><u>VENUE DIRECTIONS</u></h5>
+            <br />
+            <p class="para1-b">6, Koregaon Road, Near Hotel Blue Diamond, Pune, Maharashtra 411001</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.874593028313!2d73.8858769!3d18.534568399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0ffa9356657%3A0xa8a998fd05b52d95!2sSt.%20Mira&#39;s%20College%20For%20Girls!5e0!3m2!1sen!2sin!4v1735450250416!5m2!1sen!2sin"
+              width="380"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-2 py-1 text-center">
+      <div style="background: rgba(25, 25, 112, 0.5); color: white; padding: 20px; border-radius: 8px">
+        <div>
+          <p style="margin: 0; font-size: 1.2rem; font-weight: bold">Contact Us:</p>
+          <p style="margin: 5px 0; font-size: 1rem">
+            Phone:
+            <a
+              href="tel:+919975582353"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 9975582353</a
+            >
+            |
+            <a
+              href="tel:+918484842734"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 8484842734</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

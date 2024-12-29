@@ -1,0 +1,333 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEKLOGICA 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="sparkleCanvas"></canvas>
+    <nav
+      style="
+        background: linear-gradient(45deg, rgba(25, 25, 112, 0.5), rgba(48, 25, 52, 0.5));
+        color: white;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <!-- Brand Name -->
+        <li>
+          <a href="#" class="title-secondary" style="text-decoration: none"> TEKLOGICA 2025 </a>
+        </li>
+
+        <!-- Navigation Links -->
+        <div style="display: flex; gap: 20px; font-family: 'Garamond', serif; font-size: 1.1rem">
+          <li>
+            <a
+              href="index.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="time.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Event Schedule
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="container text-center my-3">
+      <!-- Centered container -->
+      <div class="row row-cols-1 row-cols-md-2 g-3">
+        <!-- 2 columns per row -->
+
+        <!--COMPUTER SCIENCE EVENTS-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para blue-p"
+                >BugBundy <br /><br />
+                <img src="cs.png" style="width: 15rem; height: 15rem; opacity: 80%" />
+                <br /><br />
+              </span>
+              <div class="dropdown-text para1 blue-m">
+                <h6>The Ultimate Debugging Challenge</h6>
+                <br />
+                <p>
+                  BugBundy is a fast-paced competition where participants race against time to spot and
+                  fix code bugs. Test your skills, showcase your expertise, and compete for glory in this
+                  thrilling tech showdown!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--MATHEMATICS APTITUDE-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para green-p"
+                >MathWiz <br /><br />
+                <img src="maths.png" style="width: 15rem; height: 15rem; opacity: 80%" />
+                <br /><br />
+              </span>
+              <div class="dropdown-text para1 green-p">
+                <h6>Mathematics Aptitude Challenge</h6>
+                <br />
+                <p>
+                  MathWiz is a stimulating competition that tests your logical thinking and
+                  problem-solving abilities. Sharpen your mind, tackle intriguing math problems, and
+                  prove your aptitude in this exciting challenge!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MATHEMATICCS POSTER DESCRIPTION-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para blue-p">
+                MathVision <br /><br />
+                <img src="mathppt.png" style="width: 15rem; height: 15rem; opacity: 80%" />
+                <br />
+              </span>
+              <div class="dropdown-text para1 blue-m">
+                <h5><b>Mathematics Presentation Competition </b></h5>
+                <br />
+                <p>
+                  MathVision is a platform to showcase your analytical skills and creativity through
+                  captivating mathematics presentations. Dive into concepts, present innovative ideas,
+                  and inspire others with the beauty of math!
+                </p>
+                <br />
+                <h5><u>TOPICS</u></h5>
+                <br />
+                <ol style="text-align: left">
+                  <li>
+                    <h6><b>Cryptography: The Math Behind Secure Communication</b></h6>
+                    <ul type="none">
+                      <li>
+                        Exploring encryption techniques like RSA, AES, and the role of prime numbers in
+                        securing data.
+                      </li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <h6><b>Linear Algebra in Computer Graphics and AI</b></h6>
+                    <ul type="none">
+                      <li>
+                        Applications of matrices, vectors, and transformations in machine learning and 3D
+                        rendering.
+                      </li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <h6><b>Chaos Theory: The Butterfly Effect in Mathematics</b></h6>
+                    <ul type="none">
+                      <li>
+                        Understanding sensitive dependence on initial conditions and its role in
+                        simulations.
+                      </li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <h6><b>Computational Geometry: Algorithms Behind Spatial Data</b></h6>
+                    <ul type="none">
+                      <li>Applications of geometric algorithms in robotics, GIS, and computer vision</li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <h6><b>Boolean Algebra: The Foundation of Logic Circuits</b></h6>
+                    <ul type="none">
+                      <li>
+                        Visualizing truth tables, Karnaugh maps, and their role in digital systems.
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ELECTRONICS POSTER DESCRIPTION-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para purple-p"
+                >ElectroQuest <br />
+                <br />
+                <img src="electronics.png" style="width: 18rem; height: 13rem; opacity: 80%" />
+                <br /><br />
+              </span>
+              <div class="dropdown-text para1 purple-p">
+                <h5><b>Poster and Project Competition</b></h5>
+                <br />
+                <p>
+                  ElectroQuest invites budding innovators to showcase their creativity and technical
+                  skills through exciting poster presentations and project demonstrations. Bring your
+                  ideas to life and inspire others in this electrifying competition!
+                </p>
+                <br />
+                <h6><u>TOPICS</u></h6>
+                <br />
+                <ol style="text-align: left">
+                  <li>
+                    <b> Advances in semiconductor technology :</b> From Silicon to Gallium Nitride and
+                    willow
+                  </li>
+                  <br />
+
+                  <li><b>Edge AI :</b> Bringing intelligence to device level</li>
+                  <br />
+
+                  <li><b>Implantable Electronics :</b> The future of health care</li>
+                  <br />
+
+                  <li><b>Cyber Security in IoT devices</b></li>
+                  <br />
+
+                  <li><b>Career in Electronics :</b> Inspiring the next generation</li>
+                  <br />
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--STATISTICS POSTERS DESCRIPTIONS-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para green-p">
+                StatSpeak <br /><br />
+                <img src="stats1.png" style="width: 19rem; height: 15rem; opacity: 80%" />
+                <br /><br />
+              </span>
+              <div class="dropdown-text para1 green-p">
+                <h6>Statistics Presentation Competition</h6>
+                <br />
+                <p>
+                  StatSpeak provides a platform to explore and present insightful statistical concepts
+                  and analyses. Showcase your data-driven ideas, share compelling stories, and inspire
+                  with the power of statistics!
+                </p>
+                <br />
+                <h6><u>TOPIC</u></h6>
+                <br />
+                Role of AI in Data Analytics.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--NON TECHNICAL EVENTS-->
+        <div class="col">
+          <div class="p-3 container-fluid">
+            <div class="dropdown">
+              <span class="para purple-p"
+                >FunFusion <br /><br />
+                <img src="chess.png" style="width: 18rem; height: 18rem; opacity: 80%" />
+                <br />
+              </span>
+              <div class="dropdown-text para1 purple-p">
+                <h6>Non-Technical Events</h6>
+                <br />
+                <p>
+                  Unleash your creativity and have fun with our exciting lineup of non-technical events!
+                  From cracking Sudoku puzzles and solving Rubik's cubes to creating engaging reels and
+                  delivering hilarious stand-up comedy, there's something for everyone to enjoy and
+                  showcase their unique talents. Join us for a day full of excitement and laughter!
+                </p>
+
+                <ul type="none">
+                  <b>
+                    <li>Chess</li>
+
+                    <li>Sudoko</li>
+
+                    <li>Rubix cube</li>
+
+                    <li>Reel Making</li>
+
+                    <li>Stand Up Comedy</li>
+                  </b>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-2 py-1 text-center">
+      <div style="background: rgba(25, 25, 112, 0.5); color: white; padding: 20px; border-radius: 8px">
+        <div>
+          <p style="margin: 0; font-size: 1.2rem; font-weight: bold">Contact Us:</p>
+          <p style="margin: 5px 0; font-size: 1rem">
+            Phone:
+            <a
+              href="tel:+919975582353"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 9975582353</a
+            >
+            |
+            <a
+              href="tel:+918484842734"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 8484842734</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

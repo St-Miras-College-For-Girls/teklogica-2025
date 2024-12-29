@@ -1,0 +1,176 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEKLOGICA 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="sparkleCanvas"></canvas>
+    <nav
+      style="
+        background: linear-gradient(45deg, rgba(25, 25, 112, 0.5), rgba(48, 25, 52, 0.5));
+        color: white;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <!-- Brand Name -->
+        <li>
+          <a href="#" class="title-secondary" style="text-decoration: none"> TEKLOGICA 2025 </a>
+        </li>
+
+        <!-- Navigation Links -->
+        <div style="display: flex; gap: 20px; font-family: 'Garamond', serif; font-size: 1.1rem">
+          <li>
+            <a
+              href="index.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="event.html"
+              class="li-a"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='rgba(230, 230, 250, 1)'"
+            >
+              Event Manual
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="container text-center my-3">
+      <div class="container my-4">
+        <h2 class="text-center title-secondary">Event Schedule</h2>
+        <br />
+        <table
+          class="custom-table-class para1-b"
+          style="
+            background-color: rgba(0, 0, 0, 0.3); /* Transparent background */
+            color: white;
+            border-color: rgba(230, 230, 250, 0.5);
+          "
+        >
+          <tr>
+            <th>Activity</th>
+            <th>Time</th>
+            <th>Venue</th>
+          </tr>
+
+          <tr>
+            <td>Registration</td>
+            <td>8:30am - 2:00pm</td>
+            <td>Entrance</td>
+          </tr>
+          <tr>
+            <td>Inauguration</td>
+            <td>9:15am - 9:30am</td>
+            <td>AV Room (2<sup>nd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Computer Science Events</td>
+            <td>10:00am - 11:00am</td>
+            <td>Computer Science Lab (3<sup>rd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Mathematics Poster</td>
+            <td>11:00am - 1:00pm</td>
+            <td>Mathematics / Statistics Lab (3<sup>rd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Statistics Presentation</td>
+            <td>11:00am - 1:00pm</td>
+            <td>AV Room (2<sup>nd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Electronics Poster and Project</td>
+            <td>11:00am - 1:00pm</td>
+            <td>Electronics Lab (3<sup>rd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Computer Science Project</td>
+            <td>11:00am - 1:00pm</td>
+            <td>Computer Science Lab (3<sup>rd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Mathematics Aptitude</td>
+            <td>1:00pm - 2:00pm</td>
+            <td>Mathematics / Statistics Lab (3<sup>rd</sup> Floor)</td>
+          </tr>
+          <tr>
+            <td>Non-Technical Games</td>
+            <td>2:00pm - 4:00pm</td>
+            <td>AV Room (2<sup>nd</sup> Floor)</td>
+          </tr>
+        </table>
+        <br />
+        <p class="para1-b">
+          Kindly Note: The refreshment will be served from 11:00 am to 2:00 pm in Room No. 305 (3<sup
+            >rd</sup
+          >
+          Floor). Participants will be given 1 food coupon even after participating in one or more events
+          in the event.
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer mt-2 py-1 text-center">
+      <div style="background: rgba(25, 25, 112, 0.5); color: white; padding: 20px; border-radius: 8px">
+        <div>
+          <p style="margin: 0; font-size: 1.2rem; font-weight: bold">Contact Us:</p>
+          <p style="margin: 5px 0; font-size: 1rem">
+            Phone:
+            <a
+              href="tel:+919975582353"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 9975582353</a
+            >
+            |
+            <a
+              href="tel:+918484842734"
+              class="text-light"
+              onmouseover="this.style.color='#FF69B4'"
+              onmouseout="this.style.color='white'"
+              >+91 8484842734</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
