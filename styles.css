@@ -68,7 +68,7 @@ body {
 }
 .title {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: rgba(230, 230, 250, 1);
   text-shadow: 0 0 3px rgba(0, 191, 255, 0.5), 0 0 7px rgba(255, 20, 147, 0.5),
@@ -210,4 +210,9 @@ body {
 
 .custom-table-class th {
   font-weight: bold;
+}
+
+.logo-size {
+  width: 5rem;
+  height: 5rem;
 }
